@@ -1,0 +1,25 @@
+{
+  "name": "hw-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": "Aleks903",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleks903/homeworks-ajs7.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "core-js": "^3.4.2"
+  }
+}
