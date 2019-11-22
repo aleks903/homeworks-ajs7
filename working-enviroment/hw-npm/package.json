@@ -1,0 +1,18 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "author": "Aleks903",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleks903/homeworks-ajs7.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
