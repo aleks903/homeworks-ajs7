@@ -2,4 +2,4 @@ class Character {
   
 }
 
-//export default Character;
+export default Character;

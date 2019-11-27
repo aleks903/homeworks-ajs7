@@ -16,6 +16,6 @@ function writeGameSaving() {
 
 }
 
-//import Character from './domain.js';
-//export default Game;
-//export {GameSavingData, readGameSaving, writeGameSaving};
+import Character from './domain.js';
+export default Game;
+export {GameSavingData, readGameSaving, writeGameSaving};
