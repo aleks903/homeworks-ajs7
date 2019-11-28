@@ -1,12 +1,4 @@
-export default function sortHelthHeroes (arrHeroes) {
-  arrHeroes.sort(compare);
-  arrHeroes.reverse();
-  
+export default function sortHelthHeroes(arrHeroes) {
+  arrHeroes.sort((a, b) => b.health - a.health);
   return arrHeroes;
-}
-
-function compare(a,b) {
-  if(a.health > b.health) return 1;
-  if(a.health == b.health) return 0;
-  if(a.health < b.health) return -1;
 }
